@@ -2,7 +2,7 @@
 A basic application structure with the dependency injection container for yii2 basic application. This is acheived by doing the same for advanced application structure also.
 
 ## Basic Setups
-Look into [ExampleController] (https://github.com/TNChalise/yii2-dependency-injection/blob/master/controllers/SiteController.php), in its construct method, we are telling you to inject dependencies for [ExampleInterface] (https://github.com/TNChalise/yii2-dependency-injection/blob/master/services/abstractions/ExampleInterface.php) whose actual implementation is [ExampleService] (https://github.com/TNChalise/yii2-dependency-injection/blob/master/services/ExampleService.php).
+Look into [ExampleController] (https://github.com/TNChalise/yii2-dependency-injection/blob/master/controllers/ExampleController.php), in its construct method, we are telling you to inject dependencies for [ExampleInterface] (https://github.com/TNChalise/yii2-dependency-injection/blob/master/services/abstractions/ExampleInterface.php) whose actual implementation is [ExampleService] (https://github.com/TNChalise/yii2-dependency-injection/blob/master/services/ExampleService.php).
 
 ### ExampleController.php
 ```php
