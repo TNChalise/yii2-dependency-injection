@@ -34,7 +34,7 @@ class ExampleController extends SiteController
         {
             $someAction = $this->service->methodInfinity();
 
-            dd($someAction);
+            dd($someAction);//'Executed from app\\services\\ExampleService::methodInfinity'
         }
     }
   ```
